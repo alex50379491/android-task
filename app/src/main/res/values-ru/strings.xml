@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_quotes">Цитаты</string>
+    <string name="menu_products">Товары</string>
+    <string name="menu_product_details">Информация о товаре</string>
+    <string name="menu_settings">Настройки</string>
+
+    <string name="hint_url">Адрес сервера</string>
+    <string name="btn_test_connection">Проверить соединение</string>
+    <string name="btn_save_url">Сохранить адрес</string>
+    <string name="message_connection_success">Соединение прошло успешно</string>
+    <string name="message_connection_error">Ошибка соединения</string>
+    <string name="message_error_getting_quotes">Ошибка при получении цитат</string>
+    <string name="message_error_getting_products">Ошибка при получении товаров</string>
+    <string name="message_product_is_null">Товар не найден</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TestTask" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorAccent">@color/primary</item>
+        <item name="android:colorSecondary">@color/secondary</item>
+        <item name="colorAccent">@color/secondary</item>
+        <item name="appBarLayoutStyle">@style/Theme.TestTask.Toolbar</item>
+        <item name="colorControlNormal">@color/toolbarText</item>
+    </style>
+
+    <style name="Theme.TestTask.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TestTask.Toolbar" parent="@style/ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextColor">@color/toolbarText</item>
+    </style>
+</resources>

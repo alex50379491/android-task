@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button" parent="TextAppearance.AppCompat.Button">
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/btn_color</item>
+        <item name="android:textColor">@color/btnText</item>
+    </style>
+
+    <style name="Progress" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateTint">@color/secondary</item>
+        <item name="android:elevation">@dimen/elevation_normal</item>
+    </style>
+
+    <style name="TextInputLayout">
+        <item name="android:textColorHint">@color/secondary</item>
+        <item name="android:backgroundTint">@color/secondary</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="Text.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="List">
+        <item name="android:overScrollMode">ifContentScrolls</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+</resources>
